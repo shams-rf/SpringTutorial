@@ -1,0 +1,20 @@
+# YAML file used to specify which port to connect to,along with database username, password, etc.
+# Preferences set for database such as create-drop, show sql, etc.
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5332/customer
+    username: shamsuddinrefaei
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: create-drop # Existing tables are deleted and recreated
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+          format_sql: true
+      show_sql: true
+  main:
+    web-application-type: servlet
