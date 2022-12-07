@@ -1,3 +1,7 @@
+### Private Credentials ###
+docker-compose.yml
+/src/main/resources/application.yml
+
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -31,7 +35,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-### Private Credentials ###
-.docker-compose.yml
-.application.yml
