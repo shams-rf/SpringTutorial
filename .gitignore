@@ -33,5 +33,5 @@ build/
 .vscode/
 
 ### Private Credentials ###
-docker-compose.yml
-/src/main/resources/application.yml
+.docker-compose.yml
+.application.yml
