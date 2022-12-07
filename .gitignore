@@ -1,6 +1,5 @@
 ### Private Credentials ###
-docker-compose.yml
-/src/main/resources/application.yml
+*.yml
 
 HELP.md
 target/
